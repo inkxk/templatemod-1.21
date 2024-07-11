@@ -1,5 +1,5 @@
 {
   "variants": {
-      "": { "model": "mod_id:block/raw_ruby_block" }
+    "": { "model": "templatemod:block/raw_ruby_block" }
   }
 }
