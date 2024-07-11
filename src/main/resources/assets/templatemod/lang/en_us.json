@@ -1,0 +1,9 @@
+{
+  "item.templatemod.ruby": "Ruby",
+  "item.templatemod.raw_ruby": "Raw Ruby",
+
+  "block.templatemod.ruby_block": "Block of Ruby",
+  "block.templatemod.raw_ruby_block": "Block of Raw Ruby",
+
+  "itemGroup.ruby": "Ruby Group"
+}
