@@ -1,14 +1,17 @@
 package net.inkxk.templatemod.block;
 
+import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.inkxk.templatemod.TemplateMod;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.block.ExperienceDroppingBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.math.intprovider.UniformIntProvider;
 
 public class ModBlock {
   public static void registerModBlock() {
@@ -37,4 +40,13 @@ public class ModBlock {
       new Block(AbstractBlock.Settings.copy(Blocks.EMERALD_ORE)),
       "raw_ruby_block",
       true);
+
+  public static final Block RUBY_ORE = ModBlock.register(
+    new ExperienceDroppingBlock(
+      UniformIntProvider.create(3, 7), 
+      AbstractBlock.Settings.copy(Blocks.STONE).strength(3f)
+    ), 
+    "ruby_ore",
+    true
+  );
 }

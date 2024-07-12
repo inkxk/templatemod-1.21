@@ -4,6 +4,7 @@
 
   "block.templatemod.ruby_block": "Block of Ruby",
   "block.templatemod.raw_ruby_block": "Block of Raw Ruby",
+  "block.templatemod.ruby_ore": "Ruby Ore",
 
   "itemGroup.ruby": "Ruby Group"
 }
