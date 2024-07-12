@@ -1,6 +1,5 @@
 package net.inkxk.templatemod.block;
 
-import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.inkxk.templatemod.TemplateMod;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
@@ -47,6 +46,33 @@ public class ModBlock {
       AbstractBlock.Settings.copy(Blocks.STONE).strength(3f)
     ), 
     "ruby_ore",
+    true
+  );
+
+  public static final Block DEEPSLATE_RUBY_ORE = ModBlock.register(
+    new ExperienceDroppingBlock(
+      UniformIntProvider.create(3, 7), 
+      AbstractBlock.Settings.copy(Blocks.DEEPSLATE_EMERALD_ORE).strength(4.5f)
+    ), 
+    "deepslate_ruby_ore",
+    true
+  );
+
+  public static final Block NETHER_RUBY_ORE = ModBlock.register(
+    new ExperienceDroppingBlock(
+      UniformIntProvider.create(3, 7), 
+      AbstractBlock.Settings.copy(Blocks.NETHER_GOLD_ORE).strength(3f)
+    ), 
+    "nether_ruby_ore",
+    true
+  );
+
+  public static final Block END_STONE_RUBY_ORE = ModBlock.register(
+    new ExperienceDroppingBlock(
+      UniformIntProvider.create(3, 7), 
+      AbstractBlock.Settings.copy(Blocks.END_STONE).strength(4f)
+    ), 
+    "end_stone_ruby_ore",
     true
   );
 }
