@@ -6,6 +6,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 import net.inkxk.templatemod.TemplateMod;
+import net.inkxk.templatemod.item.custom.MetalDetectorItem;
 
 public class ModItems {
 	public static void registerModItem() {
@@ -24,4 +25,5 @@ public class ModItems {
 
 	public static final Item RUBY = ModItems.register(new Item(new Item.Settings()), "ruby");
 	public static final Item RAW_RUBY = ModItems.register(new Item(new Item.Settings()), "raw_ruby");
+	public static final Item METAL_DECORATOR = ModItems.register(new MetalDetectorItem(new Item.Settings().maxDamage(64)), "metal_decorator");
 }

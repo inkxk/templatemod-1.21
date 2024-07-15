@@ -21,8 +21,14 @@ public class ModItemGroups {
     ItemGroupEvents.modifyEntriesEvent(RUBY_GROUP_KEY).register(itemGroup -> {
       itemGroup.add(ModItems.RUBY);
       itemGroup.add(ModItems.RAW_RUBY);
+      itemGroup.add(ModItems.METAL_DECORATOR);
+
       itemGroup.add(ModBlock.RUBY_BLOCK);
       itemGroup.add(ModBlock.RAW_RUBY_BLOCK);
+      itemGroup.add(ModBlock.RUBY_ORE);
+      itemGroup.add(ModBlock.DEEPSLATE_RUBY_ORE);
+      itemGroup.add(ModBlock.NETHER_RUBY_ORE);
+      itemGroup.add(ModBlock.END_STONE_RUBY_ORE);
     });
   }
 

@@ -1,6 +1,7 @@
 {
   "item.templatemod.ruby": "Ruby",
   "item.templatemod.raw_ruby": "Raw Ruby",
+  "item.templatemod.metal_decorator": "Metal Decorator",
 
   "block.templatemod.ruby_block": "Block of Ruby",
   "block.templatemod.raw_ruby_block": "Block of Raw Ruby",
